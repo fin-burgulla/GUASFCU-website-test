@@ -1,0 +1,764 @@
+.main-content {
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 3rem;
+}
+
+/* Features Section */
+.features {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+.features-alt {
+  background-color: #f9f9f9;
+}
+
+/* Credit Builder Primary Feature Card */
+.feature-card-primary {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 4rem 3rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-card-primary:hover {
+  border-color: #4ecca3;
+  box-shadow: 0 4px 20px rgba(78, 204, 163, 0.15);
+}
+
+.feature-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto 2rem;
+  display: block;
+  object-fit: cover;
+}
+
+.feature-image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature-image-grid .feature-image {
+  max-width: 100%;
+  margin: 0;
+}
+
+.feature-card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.feature-card-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-btn {
+  padding: 0.875rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #041E42;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.feature-btn:hover {
+  background-color: #6c757d;
+  color: white;
+  transform: translateY(-6px) scale(1.08);
+  box-shadow: 0 12px 30px rgba(108, 117, 125, 0.5);
+}
+
+/* Services Grid Section */
+.services-grid-section {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+.services-grid-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 3rem;
+  letter-spacing: 2px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  border-color: #4ecca3;
+  box-shadow: 0 4px 20px rgba(78, 204, 163, 0.15);
+  transform: translateY(-4px);
+}
+
+.service-card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
+
+.service-card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  min-height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-btn {
+  padding: 0.75rem 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #041E42;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.service-btn:hover {
+  background-color: #6c757d;
+  color: white;
+  transform: translateY(-6px) scale(1.08);
+  box-shadow: 0 12px 30px rgba(108, 117, 125, 0.5);
+}
+
+/* Loans Section */
+.loans-section {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.loans-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 2.5rem;
+  letter-spacing: 2px;
+}
+
+.loans-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 3rem;
+  max-width: 600px;
+}
+
+.loan-item {
+  font-size: 1.2rem;
+  color: #555;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.loan-item:hover {
+  border-color: #4ecca3;
+  background-color: #f9fffe;
+  transform: translateX(8px);
+}
+
+.loans-cta {
+  margin-top: 2rem;
+}
+
+.loans-btn {
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.loans-btn:hover {
+  background-color: #5a6268;
+  transform: translateY(-6px) scale(1.08);
+  box-shadow: 0 12px 30px rgba(108, 117, 125, 0.6);
+}
+
+/* Mobile App Section */
+.mobile-app-section {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+
+.mobile-app-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mobile-app-text {
+  text-align: left;
+}
+
+.mobile-app-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.mobile-app-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2.5rem;
+  line-height: 1.8;
+}
+
+.mobile-app-image {
+  text-align: center;
+}
+
+.phone-mockup {
+  max-width: 350px;
+  height: auto;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.2));
+}
+
+.app-download-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.app-download-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.75rem;
+  background-color: #041E42;
+  color: #fff;
+  border: 2px solid #041E42;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+
+.app-download-btn:hover {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: white;
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 12px 30px rgba(108, 117, 125, 0.5);
+}
+
+.app-store-icon,
+.google-play-icon {
+  font-size: 2rem;
+}
+
+.app-btn-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.app-btn-label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+.app-btn-store {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 5rem 0;
+  background-color: #f9f9f9;
+}
+
+.testimonials-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 3.5rem;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  border-color: #4ecca3;
+  box-shadow: 0 6px 20px rgba(78, 204, 163, 0.15);
+  transform: translateY(-4px);
+}
+
+.testimonial-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.testimonial-author {
+  border-top: 2px solid #f0f0f0;
+  padding-top: 1rem;
+}
+
+.author-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 0.25rem 0;
+}
+
+.author-title {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
+
+/* Closing CTA Section */
+.closing-cta-section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #041E42 0%, #1a1a2e 100%);
+  text-align: center;
+}
+
+.closing-cta-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.closing-cta-btn {
+  padding: 1.25rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.closing-cta-btn:hover {
+  background-color: #5a6268;
+  transform: translateY(-8px) scale(1.1);
+  box-shadow: 0 15px 35px rgba(108, 117, 125, 0.6);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* About Section */
+.about {
+  padding: 5rem 0;
+  background-color: #f5f5f5;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.stat {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.stat p {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .feature-card-primary {
+    padding: 3rem 2rem;
+  }
+
+  .feature-card-title {
+    font-size: 1.75rem;
+  }
+
+  .feature-image-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding: 3rem 0;
+  }
+
+  .feature-card-primary {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .feature-card-title {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .feature-card-description {
+    font-size: 1rem;
+  }
+
+  .feature-btn {
+    padding: 0.75rem 2rem;
+    font-size: 0.95rem;
+  }
+
+  .services-grid-section {
+    padding: 3rem 0;
+  }
+
+  .services-grid-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .service-card-title {
+    font-size: 1.1rem;
+    min-height: auto;
+  }
+
+  .service-btn {
+    padding: 0.65rem 1.75rem;
+    font-size: 0.85rem;
+  }
+
+  .loans-section {
+    padding: 3rem 0;
+  }
+
+  .loans-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .loans-list {
+    max-width: 100%;
+  }
+
+  .loan-item {
+    font-size: 1rem;
+    padding: 0.875rem 1.5rem;
+  }
+
+  .loan-item:hover {
+    transform: translateX(4px);
+  }
+
+  .loans-btn {
+    padding: 0.875rem 2rem;
+    font-size: 0.95rem;
+  }
+
+  .mobile-app-section {
+    padding: 3rem 0;
+  }
+
+  .mobile-app-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .mobile-app-text {
+    text-align: center;
+  }
+
+  .mobile-app-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .mobile-app-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .phone-mockup {
+    max-width: 280px;
+  }
+
+  .app-download-buttons {
+    align-items: center;
+  }
+
+  .app-download-btn {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .app-store-icon,
+  .google-play-icon {
+    font-size: 1.75rem;
+  }
+
+  .app-btn-store {
+    font-size: 1rem;
+  }
+
+  .testimonials-section {
+    padding: 3rem 0;
+  }
+
+  .testimonials-title {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    padding: 0 1rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .testimonial-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .author-name {
+    font-size: 0.95rem;
+  }
+
+  .author-title {
+    font-size: 0.85rem;
+  }
+
+  .closing-cta-section {
+    padding: 4rem 0;
+  }
+
+  .closing-cta-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .closing-cta-btn {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+
+  .about {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1.5rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .stat h3 {
+    font-size: 2rem;
+  }
+
+  .stat p {
+    font-size: 1rem;
+  }
+}
